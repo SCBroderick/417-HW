@@ -10,7 +10,7 @@ public class Arithmetic {
 	public static int SumArray(int[] arr)
 	{
 		int sum = 0;
-		for(int i=1; i < arr.length; ++i) //fault, does not include first index of array
+		for(int i=0; i < arr.length; ++i) //fault fixed
 		{
 			sum += arr[i];
 		}
