@@ -1,7 +1,0 @@
-language: java
-sudo: false
-<<<<<<< HEAD
-script: mvn clean verify
-=======
-script: mvn package
->>>>>>> 774d4a3f131b2bcadee54edf6c098134fbc3edb3
